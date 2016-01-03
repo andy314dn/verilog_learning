@@ -11,6 +11,6 @@ First things first, learn to write Markdown.
 * third item in a list
 
 Things are important to me:
-1. Verilog skills
-2. C programming language
-3. Algorithms ???
+  1. Verilog skills
+  2. C programming language
+  3. Algorithms ???
