@@ -1,0 +1,5 @@
+./TestBench.v
+./Intro_Top.v
+./AndOr.v
+./SR.v
+./XorNor.v
