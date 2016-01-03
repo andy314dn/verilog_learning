@@ -26,3 +26,6 @@ than from [Yahoo][2] or [MSN][3].
 [1]: https://www.google.com/    "Google"
 [2]: https://search.yahoo.com/  "Yahoo Search"
 [3]: http://www.bing.com/       "MSN - Bing Search"
+
+There are a total of 24 chapters.  
+**w1c1** stands for Week 1, Class 1
