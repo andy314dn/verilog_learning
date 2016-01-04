@@ -1,0 +1,1 @@
+http://xilinx.wikidot.com/zc702-boot-from-flash
