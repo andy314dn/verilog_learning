@@ -1,0 +1,19 @@
+SynaptiCAD VHDL/Verilog simulator rev. 44938.18196.
+simgen: Note: Loaded recent snapshot `TestBench' from library `work'.
+  -s
+  +loadpli1=syncadverilogx.dll
+  +linedebug
+vpi_r: Note: PLI veriusertfs array loaded from library: `syncadverilogx.dll' using bootstrap: `register_syncad_tasks'
+Init time: 0.1 s (CPU time: 0.1 s)
+sim> puts "HELLO_SYNCAD_0x3"
+HELLO_SYNCAD_0x3
+sim> init_syncad
+BtimPli = IOR:010000001c00000049444c3a53796e6361642f436f7262614274696d506c693a312e3000010000000000000068000000010102000a0000003132372e302e302e310073ef1b00000014010f00525354c7798a5637990800000000000100000001000000000200000000000000080000000100a200004f415401000000180000000100a2000100010001000000010001050901010000000000
+sim> start_corba_msg_pump
+sim> start_corba_msg_pump
+sim> run
+Simulation finished via $finish(1) at time 554 ns
+Simulation time: 0.1 s (CPU time: 0.1 s)
+sim> puts "HELLO_SYNCAD_0x4"
+HELLO_SYNCAD_0x4
+sim> exit

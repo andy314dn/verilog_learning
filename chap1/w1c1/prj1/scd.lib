@@ -1,0 +1,2 @@
+DEFINE sv_std $SYNCAD_HOME/lib/sv/scd_work
+DEFINE work ./scd_work

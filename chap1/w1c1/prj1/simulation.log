@@ -1,0 +1,54 @@
+Log File Generated: 01/04/2016 08:54:52 PM
+
+[Beginning Verilog MUT preparse]
+Working directory: D:\GITHUB_LAP\verilog_learning\chap1\w1c1\prj1
+Program arguments:
+ simx  -y .\lib\verilog -y .\lib -y .\lib\verilog\  +incdir+.\  +libext+.v+.vo  +typdelays  D:\GITHUB_LAP\verilog_learning\chap1\w1c1\XorNor.v D:\GITHUB_LAP\verilog_learning\chap1\w1c1\TestBench.v D:\GITHUB_LAP\verilog_learning\chap1\w1c1\SR.v D:\GITHUB_LAP\verilog_learning\chap1\w1c1\Intro_Top.v D:\GITHUB_LAP\verilog_learning\chap1\w1c1\AndOr.v
+SynaptiCAD VHDL/Verilog simulator rev. 44938.18196.
+vlog_a: Note: Analyzing...
+vlog_a: Note: XorNor.v
+vlog_a: Note: TestBench.v
+vlog_a: Note: SR.v
+vlog_a: Note: Intro_Top.v
+vlog_a: Note: AndOr.v
+vlog_a: Note: Parsing success. 0 error(s), 0 warning(s)
+[Verilog MUT preparse complete]
+
+Working directory: D:\GITHUB_LAP\verilog_learning\chap1\w1c1\prj1\
+Executable file:   C:\SynaptiCAD\bin\win32\simx32.exe
+Program arguments:
+ C:\SynaptiCAD\bin\win32\simx32.exe +libext+.v+.vo +loadpli1=syncadverilogx.dll --scd_nosim +timescale+1ns/1ps --scd_top TestBench +linedebug +incdir+. -y lib/verilog -y lib
+SynaptiCAD VHDL/Verilog simulator rev. 44938.18196.
+hdb: Note: Loaded unit `TestBench' from library `work'.
+elab: Note: Creating new simulation snapshot named "TestBench".
+vpi_r: Note: PLI veriusertfs array loaded from library: `syncadverilogx.dll' using bootstrap: `register_syncad_tasks'
+hdb: Note: Loaded unit `Intro_Top' from library `work'.
+hdb: Note: Loaded unit `AndOr' from library `work'.
+hdb: Note: Loaded unit `SR' from library `work'.
+hdb: Note: Loaded unit `XorNor' from library `work'.
+elab: Note: Elaborating...
+elab: Note: Top-level "TestBench".
+elab: Note: Elaborate success. 0 error(s), 0 warning(s)
+codegen: Note: Generating code...
+elab: Note: Stored initial simulation snapshot "TestBench".
+simgen: Note: Code generation success. 0 error(s), 0 warning(s)
+simgen: Note: Loaded recent snapshot `TestBench' from library `work'.
+cpp_c: Note: C/C++ compilation started using: `MS Visual C++' compiler.
+cpp_c: Note: C/C++ compilation success.
+simx: Note: Simulator generation success.
+Process exited with code 0.
+
+Working directory: D:\GITHUB_LAP\verilog_learning\chap1\w1c1\prj1\
+Executable file:   C:\SynaptiCAD\bin\win32\simxloader32.exe
+Program arguments:
+ C:\SynaptiCAD\bin\win32\simxloader32.exe -s +loadpli1=syncadverilogx.dll +linedebug
+SynaptiCAD VHDL/Verilog simulator rev. 44938.18196.
+simgen: Note: Loaded recent snapshot `TestBench' from library `work'.
+vpi_r: Note: PLI veriusertfs array loaded from library: `syncadverilogx.dll' using bootstrap: `register_syncad_tasks'
+Init time: 0.1 s (CPU time: 0.1 s)
+sim> start_corba_msg_pump
+sim> run
+Simulation finished via $finish(1) at time 554 ns
+Simulation time: 0.1 s (CPU time: 0.1 s)
+sim> exit
+Process exited with code 0.

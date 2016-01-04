@@ -1,0 +1,6 @@
+Log File Generated :01/04/2016 08:54:42 PM
+* Error:
+   File Name:	D:\GITHUB_LAP\verilog_learning\chap1\w1c1\TestBench.v
+   Line Number:	19
+  Column Number:	3
+   Text:	vlog_p: Error (33002): Error while trying to open file "/VCS/Extras.inc".

@@ -1,0 +1,46 @@
+<!DOCTYPE HdlBuildFileList SYSTEM "hdl-buildfile.dtd">
+<HdlBuildFile TopLevelLanguage="verilog" TbpVersion="19.01a" IdlVersion="x.x" HvlLanguage="language_invalid" HdlLanguage="verilog" BaseTimeUnit="ps" DisplayTimeUnit="ns" GenerationDestinationLibrary="work" DestinationLibrary="work">
+  <TopLevelComponents ForceTopLevelComponents="true">
+    <ComponentList Language="verilog">
+      <Component Library="work" Architecture="TestBench">TestBench</Component>
+    </ComponentList>
+  </TopLevelComponents>
+  <ExternalSimulatorSettings>
+    <Tool Name="Verilogger Extreme">verilog</Tool>
+  </ExternalSimulatorSettings>
+  <GeneralConfiguration LogFileName="simulation.log" AddTopLevelSignals="True" ShowWatchSignals="True" DumpWatchSignals="False" BreakAtTimeZeroAfterCompile="False" ClearLogFileBeforeCompile="True" AutoParseProject="False" GenerateTestBenchOnBuildProject="True" DisablePeriodicWaveformUpdate="False" CompileVerilogFiles="True" CompileVHDLFiles="False" CompileCppFiles="False" MakeConstantsWatchable="True" MakeArrayElementsWatchable="False" WatchableArrayElementSize="0" EnableSimulatorDebugging="True"></GeneralConfiguration>
+  <ProjectLanguageConfigurationList>
+    <LanguageSettings Language="verilog">
+      <SimTool>Verilogger Extreme</SimTool>
+      <IncludeDirectories>
+        <Directory>.\</Directory>
+      </IncludeDirectories>
+      <LibraryDirectories>
+        <Directory>.\lib\verilog</Directory>
+        <Directory>.\lib</Directory>
+        <Directory>.\lib\verilog\</Directory>
+      </LibraryDirectories>
+      <LibraryExtensions>
+        <Extension>.v</Extension>
+        <Extension>.vo</Extension>
+      </LibraryExtensions>
+      <UseVhdl93Defaults>True</UseVhdl93Defaults>
+      <DelayType>1</DelayType>
+      <PliDriven>False</PliDriven>
+      <ActiveSnapshotName></ActiveSnapshotName>
+      <DestinationLibraryName>work</DestinationLibraryName>
+      <AdditionalExtensions></AdditionalExtensions>
+      <BuildOptions>+linedebug</BuildOptions>
+      <LinkerOptions>+linedebug</LinkerOptions>
+      <RuntimeOptions>+linedebug</RuntimeOptions>
+      <RunOutputFileExecutable>False</RunOutputFileExecutable>
+      <ForceTopLevel>False</ForceTopLevel>
+    </LanguageSettings>
+  </ProjectLanguageConfigurationList>
+  <OutputDiagram>.\StimulusAndResults.btim</OutputDiagram>
+  <SourceFileGroup Language="language_invalid"></SourceFileGroup>
+  <SourceFileGroup Language="language_invalid"></SourceFileGroup>
+  <SourceFileGroup Language="language_invalid"></SourceFileGroup>
+  <SourceFileGroup Language="language_invalid"></SourceFileGroup>
+  <SourceFileGroup Language="language_invalid"></SourceFileGroup>
+</HdlBuildFile>

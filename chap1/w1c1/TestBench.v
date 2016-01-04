@@ -16,7 +16,7 @@ module TestBench;			// Stimulus blocks have no port.
 	//
 	initial 
 		begin
-		`include "../../VCS/Extras.inc"
+		//`include "/VCS/Extras.inc"
 		//
 		// Each '#' precedes a delay time increment, here in 1 ns unit:
 		//

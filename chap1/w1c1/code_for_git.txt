@@ -1,0 +1,26 @@
+git init
+
+git remote add origin https://github.com/andy314dn/something.git
+
+git clone https: ... .git
+
+###
+
+git add .
+git add -u
+git add -A
+
+git commit -m "message"
+
+git push
+
+###
+
+	Sometimes you are working on a project with a version being used by many people
+	you may not want to edit that version
+	so you can create a branch with the command
+git checkout -b branchname
+	To see what branch you are on type:
+git branch
+	To switch back to the master branch type:
+git checkout master

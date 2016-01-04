@@ -1,0 +1,18 @@
+SynaptiCAD VHDL/Verilog simulator rev. 44938.18196.
+hdb: Note: Loaded unit `TestBench' from library `work'.
+elab: Note: Creating new simulation snapshot named "TestBench".
+vpi_r: Note: PLI veriusertfs array loaded from library: `syncadverilogx.dll' using bootstrap: `register_syncad_tasks'
+hdb: Note: Loaded unit `Intro_Top' from library `work'.
+hdb: Note: Loaded unit `AndOr' from library `work'.
+hdb: Note: Loaded unit `SR' from library `work'.
+hdb: Note: Loaded unit `XorNor' from library `work'.
+elab: Note: Elaborating...
+elab: Note: Top-level "TestBench".
+elab: Note: Elaborate success. 0 error(s), 0 warning(s)
+codegen: Note: Generating code...
+elab: Note: Stored initial simulation snapshot "TestBench".
+simgen: Note: Code generation success. 0 error(s), 0 warning(s)
+simgen: Note: Loaded recent snapshot `TestBench' from library `work'.
+cpp_c: Note: C/C++ compilation started using: `MS Visual C++' compiler.
+cpp_c: Note: C/C++ compilation success.
+simx: Note: Simulator generation success.
